@@ -25,6 +25,10 @@ export const Bold = styled.Text`
     font-weight: bold;
     color: #747474;
 `
+export const Description = styled.Text`
+    font-size: 20px;
+    color: #B6B5B5;
+`
 
 export const Container = styled.View`
     flex-direction: row;
