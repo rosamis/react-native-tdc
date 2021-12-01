@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Mario Gazziro",
+        "title": "O advento do Metaverso e seu impacto na prestação de serviços tecnológicos",
+        "description": "Não só o antigo Facebook, agora Meta, como também as principais empresas de tecnologia do mundo - como a NVIDIA - têm se voltado para o ressurgimento do mercado de aplicações ao consumidor final em computadores desktop, após praticamente uma década de dominação mobile. A aplicação alvo é o chamado Metaverso, qual promete revolucionar as relações de trabalho e sociais, com o uso de realidade virtual e aumentada (colaborativo e interativo), somado a geração de conteúdo 3D tanto por base de designers, como para coletas de dados realizadas por escâner 3D. Nessa apresentação pretendo mostrar um vislumbre desse novo universo, cheio de possibilidades e que promete tornar a internet atual (baseada em páginas web) tão obsoleta quanto a própria Internet tornou o telex algo extinto.",
+        "image": "https://cdn.thedevconf.com.br/photos/5d85a94ed10e3a447a19fb439c2a0dce880f1278.jpg",
+        "date": "02/12",
+        "time": "09:40 às 10:25h"
+    },
+    {
+        "name": "Marcel Gonçalves dos Santos",
+        "title": "Introdução a React Query",
+        "description": "O React Query é uma das 'ferramentas do momento' no ecossistema React que promete lidar com data fetching de forma simples e prática. Ele permite fazer o fetching de dados, adicionar dados no cache, gerenciar invalidação de cache, lógicas de retry entre outras funcionalidades úteis de forma fácil, sem necessidade de lidar com lógicas complexas ou 'tocar no estado global'. Conheça o React Query e mude a forma como você lida com o gerenciamento de estados do servidor.",
+        "image": "https://www.gravatar.com/avatar/52711e2157a6fed933b0361cc06a6953",
+        "date": "02/12",
+        "time": "10:50 às 11:25h"
+    },
+    {
+        "name": "Andre Racz e Adriano Campanhola",
+        "title": "Arquitetura Hexagonal e DDD com NestJS",
+        "description": "Iremos mostrar como implementar a arquitetura hexagonal (também chamada de ports and adapters) com dominios ricos utilizando o NestJs (biblioteca para implementação de microserviços em typescript). Mostraremos os principais benefícios e desafios dessa arquitetura, e disponibilizaremos uma implementação de referência em NestJS",
+        "image": "",
+        "date": "02/12",
+        "time": "11:30 às 12:05h"
+    },
+    {
+        "name": "Christiano Milfont",
+        "title": "ProdOps Engineering",
+        "description": "Essa palestra vai apresentar as estratégias, técnicas e táticas de escrever uma aplicação Nodejs com React para garantir um menor tempo de Troubleshooting, ser assertivo e preventivo no monitoramento e acompanhar as métricas de negócio. Veremos como escrever uma aplicação com Continuous Delivery em primeiro lugar, Continuous Integration totalmente automatizado com as ferramentas de Planning, entender do Release Life Cycle, como Domain Driven Design se encaixa nessa abordagem, alem de código confiável sendo guiado e desenhado com testes que validam detalhes como Error e Log Management.",
+        "image": "https://cdn.thedevconf.com.br/photos/d18ceee7efc1c55e0c3318cda64f4431cd011de1.jpg",
+        "date": "02/12",
+        "time": "12:10 às 12:45h"
+    },
+    {
+        "name": "Ibrahim Cesar Nogueira Bevilacqua",
+        "title": "Next.js com SSR, ISR e deploy serverless com AWS CDK",
+        "description": "Incremental Static Regeneration (ISR) é uma feature introduzida nas últimas versões do framework Next.js, que é um verdadeiro diferencia, possibilitando combinar os benefício do dinamismo de um CMS com a velocidade de entrega de recursos gerados estaticamente. Nesta talk iremos explorar como fazer a arquitetura de sua aplicação Next.js em TypeScript e ainda como fazer seu deploy de forma totalmente serverless, apenas pagando pelo consumir.",
+        "image": "https://cdn.thedevconf.com.br/photos/c0bdb5520f17834b3e01153f239591d3867cc9b2.jpg",
+        "date": "02/12",
+        "time": "14:10 às 14:45h"
+    },
+    {
+        "name": "Alvaro Camillo Neto e Daniele Leão Evangelista",
+        "title": "Como imaginamos o futuro do JS no backend?",
+        "description": "Painel Digital dessa Trilha.",
+        "image": "https://cdn.thedevconf.com.br/photos/eda1d5be1fce9bf7ccebab9e34b813ca23b4f905.png",
+        "date": "02/12",
+        "time": "14:50 às 16:05h"
+    },
+    {
+        "name": "Ana Clara e Roberta S.",
+        "title": "React Native: Um contive para você iniciar como desenvolvedor mobile.",
+        "description": "Sempre quis desenvolver para mobile e não sabia por onde começar? Nessa palestra vamos te ajudar com seus primeiros passos em React Native, te mostrando como construir um aplicativo multiplataforma.        ",
+        "image": ""  ,
+        "date": "02/12",
+        "time": "16:25 às 17:00h"
+    },
+    {
+        "name": "Gabriel Silva e Victor Almeida",
+        "title": "Reactive Programming: Por que eu deveria pensar em abordagens reativas?",
+        "description": "Você sabe se tem uma aplicação com conceitos reativos e como tê-los pode te ajudar a ter um sistema mais flexível, e altamente responsivo, dando aos usuários um efetivo feedback interativo. Entenda também algumas boas práticas para escrever códigos reativos tanto para o seu Frontend quanto Backend.",
+        "image": "",
+        "date": "02/12",
+        "time": "17:05 às 17:40h"
+    },
+    {
+        "name": "Alvaro Camillo Neto",
+        "title": "Controle o fluxo! Programação reativa na prática.",
+        "description": "Vamos explorar o paradigma reativo e desvendar juntos como ele pode nos ajudar na construção de nossas aplicações modernas.Através de exemplos práticos veremos como ele pode simplificar códigos que devem lidar com processamento assíncrono, fluxo de dados e ações do usuário.",
+        "image": "https://cdn.thedevconf.com.br/photos/eda1d5be1fce9bf7ccebab9e34b813ca23b4f905.png",
+        "date": "02/12",
+        "time": "17:45 às 18:20h"
+    }
+]
