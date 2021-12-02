@@ -16,11 +16,14 @@ const Item = ({ image, name, title = "", date, time, showIcon = false }) => {
   return (
     <Container>
       <ImageContainer>
-        <Image
-          source={{ uri: image }}
-          style={{ flex: 1 }}
-          resizeMode="contain"
-        />
+        {image.map((item, i) => {
+          return <Image
+            source={{ uri: item }}
+            style={{ flex: 1 }}
+            resizeMode="cover"
+            key={i}
+          />
+        })}
       </ImageContainer>
       <DataContainer>
         <Name>{name}</Name>
