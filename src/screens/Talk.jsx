@@ -1,8 +1,15 @@
 import React, { useEffect, useState } from "react";
-import { Button, Text } from "react-native";
+import { Button, View } from "react-native";
+import { ScrollView } from "react-native-gesture-handler";
 import Header from "../components/Header";
 import Item from "../components/Item";
-import { Container, Description, LikedTimes } from "./styles";
+import {
+  Container,
+  Description,
+  LikedTimes,
+  DescriptionContainer,
+  BottomContainer
+} from "./styles";
 
 const Talk = ({ route }) => {
   const { title, image, name, description, date, time } = route.params;
@@ -24,9 +31,15 @@ const Talk = ({ route }) => {
         title={title}
       />
       <Item image={image} name={name} date={date} time={time} />
-      <Description>{description}</Description>
-      <Button onPress={handlePress} title="Curtir" />
-      <LikedTimes>{count? text: ""}</LikedTimes>
+      <DescriptionContainer>
+        <ScrollView>
+          <Description>{description}</Description>
+        </ScrollView>
+      </DescriptionContainer>
+      <BottomContainer>
+        <Button onPress={handlePress} title="Curtir" />
+        <LikedTimes>{count ? text : ""}</LikedTimes>
+      </BottomContainer>
     </Container>
   );
 };
