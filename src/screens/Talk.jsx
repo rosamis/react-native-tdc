@@ -25,7 +25,7 @@ const Talk = ({ route }) => {
       />
       <Item image={image} name={name} date={date} time={time} />
       <Description>{description}</Description>
-      <Button onPress={handlePress} title="Entrar na Trilha" color="#61DAFB" />
+      <Button onPress={handlePress} title="Entrar na Trilha" />
       {count ? <Text>{text}</Text> : null}
     </Container>
   );
