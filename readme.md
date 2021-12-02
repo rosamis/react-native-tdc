@@ -6,3 +6,7 @@ Projeto desenvolvido no TDC Future 2021, na trilha Javascript e Node.js por Ana 
 ```
 expo start
 ```
+
+## App 
+![](app.gif)
+
