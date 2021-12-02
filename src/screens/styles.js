@@ -10,6 +10,13 @@ export const Description = styled.Text.attrs({
   color: #b6b5b5;
 `;
 
+export const LikedTimes = styled.Text`
+  font-size: 15px;
+  font-weight: bold;
+  align-self: center;
+  color: #747474;
+`;
+
 export const Container = styled.View`
   flex: 1;
   background-color: #ffffff;

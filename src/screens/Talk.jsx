@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Button, Text } from "react-native";
 import Header from "../components/Header";
 import Item from "../components/Item";
-import { Container, Description } from "./styles";
+import { Container, Description, LikedTimes } from "./styles";
 
 const Talk = ({ route }) => {
   const { title, image, name, description, date, time } = route.params;
@@ -14,7 +14,7 @@ const Talk = ({ route }) => {
   };
 
   useEffect(() => {
-    setText(`Você clicou ${count} vezes`);
+    setText(`Você curtiu ${count} vezes`);
   }, [count]);
 
   return (
@@ -25,8 +25,8 @@ const Talk = ({ route }) => {
       />
       <Item image={image} name={name} date={date} time={time} />
       <Description>{description}</Description>
-      <Button onPress={handlePress} title="Entrar na Trilha" />
-      {count ? <Text>{text}</Text> : null}
+      <Button onPress={handlePress} title="Curtir" />
+      <LikedTimes>{count? text: ""}</LikedTimes>
     </Container>
   );
 };
