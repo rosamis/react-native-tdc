@@ -1,0 +1,8 @@
+expo install @expo-google-fonts/nunito expo-font
+expo install @expo-google-fonts/nunito-sans expo-font
+
+
+yarn add styled-components
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+yarn add @react-navigation/native
+yarn add @react-navigation/native-stack
